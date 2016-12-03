@@ -10,9 +10,8 @@ Personal Stats
 | ------ | ------ |
 |asdf|
 
-|     | Part 1 | Part 1 | Part 2 | Part 2 |
-| Day | Rank   | Score  | Rank   | Score  |
-|:---:| ------:| ------:| ------:| ------:|
+| Day | Part 1 Rank | Part 1 Score | Part 2 Rank | Part 2 Score |
+|:---:| -----------:| ------------:| -----------:| ------------:|
 | 1 | 4923 | 0 | 4117 | 0 |
 | 2 | 646 | 0 | 582 | 0 |
 | 3 | 280 | 0 | 324 | 0 |
