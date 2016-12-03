@@ -11,12 +11,9 @@ with open(inputFile) as f:
     while True:
         line = f.readline(-1)
         if not line:
-            # print "End of file"
             break
-        # print ("Line: ", line)
 
-        # print ("First number=" + str(lastNumber))
-
+        # Grab 3 numbers
         numsList = line.split(" ")
         nums = []
         for num in numsList:
@@ -24,11 +21,12 @@ with open(inputFile) as f:
             if num.rstrip().isdigit():
                 nums.append(int(num))
 
-        # print(nums)
+        # Could also do Pythagorean Theorem, but went for the actual way puzzle said to solve
+        # Also squaring large 3 digit numbers could take a while
         if (nums[0] + nums[1] > nums[2] and
             nums[1] + nums[2] > nums[0] and
             nums[0] + nums[2] > nums[1]):
-            possibleTriangles = possibleTriangles + 1
+            possibleTriangles += 1
 
 
 print ("Number of possible triangles: " + str(possibleTriangles))
