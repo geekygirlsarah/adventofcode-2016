@@ -11,3 +11,4 @@ I pushed them here. Some of them I may have optimized later with better answers,
 | 1 | 4923 | 0 | 4117 | 0 |
 | 2 | 646 | 0 | 582 | 0 |
 | 3 | 280 | 0 | 324 | 0 |
+| 4 | 366 | 0 | 344 | 0 |
