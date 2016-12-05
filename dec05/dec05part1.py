@@ -14,7 +14,6 @@ iter = 0
 #iter = 3231920
 while len(password) < 8:
     # status counter
-    iter += 1
     if iter % 100000 == 0:
         print ("#" + str(iter))
     # Calculate hash
@@ -28,6 +27,7 @@ while len(password) < 8:
         print("Found:  #" + str(iter) + " - " + m.hexdigest())
         char = m.hexdigest()[5]
         password += char
+    iter += 1
 
 print ("Password: " + password)
 
