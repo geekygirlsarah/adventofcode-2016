@@ -1,4 +1,4 @@
-# adventofcode2016
+# adventofcode-2016
 My Advent of Code solutions
 
 All solutions were written by me. Once verified that they worked and gave correct answers (as determined by the site),
